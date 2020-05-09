@@ -1,0 +1,15 @@
+RED_HAWK \\scanner websites (ip, geoposition, other)
+
+Install RED_HAWK for Termux::
+	
+	pkg update && pkg upgrade
+	pkg install git
+	pkg install php
+	git clone http://github.com/Tuhinshubhra/RED_HAWK
+	cd RED_HAWK
+	php rhawk.php
+
+How use::
+	
+	Enter url ==> pick scanner
+	
