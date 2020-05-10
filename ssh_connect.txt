@@ -1,0 +1,30 @@
+
+OpenSSH::
+==============================================================================
+How install::
+-----------------------------------------------------------------------
+PC (CLIENT)::
+
+ssh-keygen -t rsa -b 2048 -f id_rsa\\ 'id_rsa' --> name *.pub          
+                                   \\ '2048' --> method encription 
+create password for this connection and SAVE it
+/~/*.pub ==> termux
+
+
+Termux (SERVER)::
+
+*.pub ==> tkssh\\ tkssh -> dir in termux for ssh_key
+cat tkssh/*.pub>>~/.ssh/authorized_keys \\ *.pub -> ssh_key
+-----------------------------------------------------------------------
+How use::
+-----------------------------------------------------------------------
+Termux (SERVER)::
+
+sshd \\ open ssh SERVER
+pkill sshd \\ close ssh SERVER
+
+
+PC (CLIENT)::
+
+ssh -p '8022' 'IP_ADDRESS_SERVER'\\ "8022" --> port
+
