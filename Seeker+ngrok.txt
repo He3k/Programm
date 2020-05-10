@@ -15,7 +15,7 @@
 
 Установка Ngrok::
 
-    wget `curl -s https://ngrok.com/download | grep -o -E 'https://bin.equinox.io/c/[A-Za-z0-9]{4,}/ngrok-stable-linux-amd64.zip'`
+    wget `curl -S https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-arm.zip --output ngrok-stable-linux-arm.zip`
 
     unzip ngrok-stable-linux-amd64.zip
 
@@ -33,3 +33,22 @@
  When ==> [+] Waiting for User Interaction... ==> in new konsole open ==> ./ngrok http 8080
 
 Forwarding link it`s link for inject other people --> copy here and drop target
+
+
+Seeker + ngrok for Termux::
+
+
+Install seeker::
+	git clone https://github.com/thewhiteh4t/seeker.git
+	cd seeker
+	chmod 777 termux_install.sh \\777- admin permission access
+	./termux_install.sh
+
+Install ngrok::
+	https://ngrok.com/ \\sign up(in) and download *.zip
+	Enter in file manager in Downloads ==> *.zip ==> share ==> Termux ==> open folder
+	ls \\check choises dir
+	unzip *.zip
+	./ngrok authtoken ************************** \\token check in your account ngrok
+	open new terminal ==> check Установка Ngrok ^^^^
+	
