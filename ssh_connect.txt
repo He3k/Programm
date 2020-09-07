@@ -28,3 +28,13 @@ PC (CLIENT)::
 
 ssh -p '8022' 'IP_ADDRESS_SERVER'\\ "8022" --> port
 
+TRANSPORT FILES::
+===========================================================
+Upload::
+sudo scp -P 8022 file_name.txt 192.168.100.2:folder_destination \\ 8022 --> port
+----------------------------------------------------------------------------------
+Download::
+sudo scp -P 8022 192.168.100.2:tmp/test.txt /home/he3k/Downloads/ \\'/home/he3k/Downloads/' --> destination_folder; 'tmp/test.txt' --> send_folder 
+----------------------------------------------------------------------------------
+
+
