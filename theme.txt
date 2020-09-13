@@ -1,0 +1,9 @@
+Theme_for_terminal::
+===============================
+sudo apt install zsh micro wget curl // install need soft
+git clone https://github.com/Cabbagec/termux-ohmyzsh // download git repo
+git clone https://github.com/Bhai4You/Termux-Banner // download git repo
+cd Termux-Banner/zsh // go new directory
+chmod +x requirement.sh t-ban.sh // add right
+./requirement.sh // install need soft 
+./t-ban.sh // termux banner change
