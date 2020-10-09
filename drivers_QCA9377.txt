@@ -1,0 +1,9 @@
+Drivers for QCA9377
+===========================
+chmod +x install.sh
+./install.sh
+++++++++++++++++++++++++++
+remove all files in /lib/firmware/ath10k/QCA9377/hw1.0
+all files into firmware-only --> /lib/firmware/ath10k/QCA9377/hw1.0
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+REBOOT
